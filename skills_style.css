@@ -38,9 +38,9 @@ nav .name {
   margin-left: 20px;
   font-family: Arizonia;
 }
-nav a{
-    color: white;
-    text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
 }
 .name span {
   color: var(--theme-color);
@@ -303,7 +303,7 @@ footer::after {
 }
 
 @media (max-width: 1024px) {
-   main {
+  main {
     grid-template-columns: 300px;
     grid-template-rows: 100px 1f;
     width: 10%;
@@ -446,20 +446,20 @@ footer::after {
     align-items: center;
   }
   main .skills_image {
-    margin-left: 250px;
+    margin-left: 260px;
     justify-self: center;
     align-self: center;
   }
   main .skills {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     margin-left: 140px;
     justify-items: center;
     align-items: center;
     font-size: 1rem;
   }
-  h1:nth-child(1){
+  h1:nth-child(1) {
     grid-column: 1/4;
   }
   .skills h1 {
@@ -474,7 +474,6 @@ footer::after {
     padding: 10px;
   }
 }
-
 
 @media (max-width: 285px) {
   main {
@@ -492,14 +491,14 @@ footer::after {
   }
   main .skills {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     margin-left: 100px;
     justify-items: center;
     align-items: center;
     font-size: 1rem;
   }
-  h1:nth-child(1){
+  h1:nth-child(1) {
     grid-column: 1/4;
   }
   .skills h1 {
@@ -514,4 +513,3 @@ footer::after {
     padding: 10px;
   }
 }
-
